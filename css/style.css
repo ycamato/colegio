@@ -1,0 +1,86 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url(../imag/administrador.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background:#20dad8;
+}
+h2{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#imag {
+    margin-left: 23px;
+    height: 120px;
+    width: 240px;
+}
+
+img {
+    height: 120px;
+    width: 240px;
+}
+.cerrar{
+    width: 140px;
+    height: 26px;
+    margin:23px;
+    background: blue;
+    border-radius: 7px;
+    border: 1px solid blue;
+    font-weight: bold;
+    color: #fff;
+}
+
+.registro {
+    width: 200px;
+    background: blue;
+    margin-left: 70px;
+    
+   
+}
+
+.materias {
+    width: 200px;
+    background: blue;
+    position: relative;
+    margin-left: 900px;
+    margin-top: -135px;
+}
+
+.matricula {
+    width: 200px;
+    background: blue;
+    margin-left: 70px;
+    margin-top: 33px;
+}
+
+.estudiantes {
+    width: 200px;
+    background: blue;
+    margin-left: 899px;
+    margin-top: -130px;
+}

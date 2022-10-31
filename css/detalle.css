@@ -1,0 +1,96 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url(../imag/alumnos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.detalle {
+    width: 50%;
+    height: 380px;
+    margin-left: 360px;
+    margin-top: 100px;
+}
+
+table {
+    width: 450px;
+    margin-left: 110px;
+    padding-top: 22px;
+}
+
+table,
+tr,
+th {
+    background-color: blue;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.iden {
+    margin-left: 98px;
+    text-align: center;
+}
+
+.nom {
+    margin-left: 39px;
+    text-align: center;
+}
+
+.ape {
+    margin-left: 37px;
+    text-align: center;
+}
+
+.fun {
+    margin-left: 11px;
+    text-align: center;
+}
+
+.cod {
+    margin-left: 12px;
+    text-align: center;
+}
+
+.matricular {
+    text-decoration: none;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.matricular:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+.buscar {
+    text-decoration: none;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.buscar:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+}

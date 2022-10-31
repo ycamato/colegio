@@ -1,0 +1,171 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url(../imag/fun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    float: left;
+    background: #009BDE;
+}
+
+#logotipo {
+    float: left;
+    width: 300px;
+    padding: 2px 0px;
+    background: #009BDE;
+}
+
+img {
+    width: 250px;
+    height: 230px;
+    margin-top: -54px;
+    margin-left: 21px;
+}
+
+#subheader {
+    position: relative;
+    margin-top: -22px;
+    width: 960px;
+    margin: auto;
+}
+
+ul:hover {
+    text-decoration: none;
+}
+
+#logotipo {
+    float: left;
+    width: 300px;
+    padding: 1px 0px;
+}
+
+header #subheader nav {
+    float: left;
+    width: 660px;
+    padding: 24px 0px;
+    text-align: right;
+}
+
+header #subheader nav ul li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header #subheader nav ul li {
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 45px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+header #subheader nav ul li {
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    cursor: pointer;
+    background: #F39959;
+    border: 1px solid #F39959;
+    height: 30px;
+    width: 180px;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 50px;
+    float: none;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 0 3px 3px #FF7716;
+}
+
+.button a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.form {
+    width: 360px;
+    margin-left: 510px;
+    top: 200px;
+    position: relative;
+}
+
+table {
+    width: 290px;
+    top: 33px;
+    background: orange;
+}
+
+table,
+tr,
+td {
+    margin-left: 34px;
+    margin-top: 33%;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: #256Edc;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #F46521;
+    border-radius: 6px;
+    border: 2px solid #F46521;
+}
+
+.btn:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.boton {
+    text-decoration: none;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #F46521;
+    border-radius: 6px;
+    border: 2px solid #F46521;
+}
+
+.boton a {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}

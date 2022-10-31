@@ -1,0 +1,97 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url(../imag/alumnos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table,
+th,
+td {
+    margin-left: 34px;
+    margin-top: 44px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background: #256Edc;
+}
+
+th,
+td {
+    padding: 3px;
+}
+
+tr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.titulo {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.agr {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.fecha {
+    width: 230px;
+    height: 23px;
+    margin-left: 560px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.usua {
+    width: 230px;
+    height: 23px;
+    margin-left: 560px;
+}
+
+#matricula {
+    width: 450px;
+    height: 40px;
+    margin-top: 220px;
+    margin-left: 450px;
+}
+
+#btn {
+    background: #e9791a;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.boton {
+    background: #ff3b19;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.cerrar {
+    background: #0000f4;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 3px;
+}

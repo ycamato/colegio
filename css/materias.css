@@ -1,0 +1,111 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url(../imag/alumnos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 90px;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    margin-left: 360px;
+    margin-top: 44px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background: #256Edc;
+}
+
+.contador {
+    font-weight: 44px;
+    margin-left: 660px;
+    color: #fff;
+}
+
+th,
+td {
+    padding: 3px;
+}
+
+tr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#elimina {
+    background: #e9791a;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#elimina:hover {
+    color: #1883ba;
+    background-color: #01455A;
+}
+
+.edita {
+    background: #ff3b19;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.edita:hover {
+    color: #1883ba;
+    background-color: #01455A;
+}
+
+#inserta {
+    background: #20ae00;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#inserta:hover {
+    color: #1883ba;
+    background-color: #01455A;
+}
+
+.cerrar {
+    background: #0000f4;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.cerrar:hover {
+    color: #1883ba;
+    background-color: #01455A;
+}
